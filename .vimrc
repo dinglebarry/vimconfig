@@ -11,8 +11,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'scrooloose/nerdtree'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'wincent/Command-T'
+Plugin 'mileszs/ack.vim'
 Plugin 'jlanzarotta/bufexplorer'
 
 " Color Scheme "
@@ -42,16 +43,7 @@ set ttyfast
 set modeline
 set modelines=3
 
-autocmd VimEnter * NERDTree
-
 syntax on
 filetype plugin indent on
 syntax enable
-" if has('gui_running')
-"     set background=dark
-"     colorscheme solarized
-" else
-"     set background=dark
-" endif
-
 set guifont=Consolas:h14
